@@ -35,8 +35,8 @@ p{
     display: grid;
     font-size: 20px;
     grid-template-columns: repeat(2, 1fr) 150px;
-    grid-template-rows: 1fr 7fr;
-    background-color: rgba(0, 255, 217, 0.214);
+    grid-template-rows: 30px 7fr;
+    background-color: rgba(132, 180, 172, 0.214);
     border: 1px solid black;
 }
 .nestedCap{
@@ -88,9 +88,7 @@ p{
 }
 }
 @media (max-width: 768px){
-    .boxs{
-        grid-template-rows:1fr 4fr;
+    .wrapper{
+        grid-template-columns: 1fr;
     }
-    
-
 }
