@@ -1,0 +1,68 @@
+*{
+    font-family: 'EB Garamond', serif;
+}
+h1{
+    font-size: 22px;
+    text-align: center;
+}
+    body>a{
+        font-style: italic;
+    }
+    h2{
+    text-align: center;
+    }
+    caption{
+        text-align: center;
+    }
+    th{
+        text-align: center;
+        background-color: green;
+        color:aqua;
+        font-weight:bold;
+    }
+    tr:nth-child(even){
+    background-color: gray;
+    }
+    tr:nth-child(odd){
+    background-color: white;
+    }
+    tr>td:nth-of-type(5){
+        text-align: end;
+    }
+    table{
+        width: 100%;
+    }
+    table, th, td {
+    text-align: center;
+    border: 1px solid black;
+    }
+    th, td {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    }
+    @media(min-width: 993px){
+        table th {
+            font-size: 130%;
+        }
+    
+        table td {
+            font-size: 120%;
+        }
+    }
+    
+    @media (min-width: 769px) and (max-width: 992px){
+        table th {
+            font-size: 120%;
+        }
+    
+        table td {
+            font-size: 110%;
+        }
+    }
+    @media (max-width: 768px){
+        table th {
+            font-size: 110%;
+        }
+    }

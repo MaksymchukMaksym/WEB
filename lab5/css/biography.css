@@ -1,0 +1,68 @@
+*{
+    font-family: 'Arimo', sans-serif;
+}
+h1{
+    font-size: 22px;
+    text-align: center;
+}
+body>a:nth-of-type(1){
+    font-style: italic;
+}
+body>h3{
+    text-align: center;
+}
+.ref:link, .ref:visited {
+background-color: blue;
+border: 1px solid red;
+color:black;
+display: block;
+width: 200px;
+text-align:center;
+margin-bottom: 5px;
+}
+.ref:hover{
+    background-color: magenta;
+    color: blue;;
+}
+.ref:active{
+    background-color: yellow;
+   
+}
+article{
+    border: 1px solid black;
+}
+
+.biography__articles-item {
+    margin-bottom: 10px;
+}
+article>h2{
+    font-size: 1.5em;
+    overflow: hidden;
+}
+.biography-article__basic{
+    color:darkolivegreen;
+    background-color:cadetblue;
+}
+.biography-article__child{    
+    color:blue;
+    background-color:lightcoral;
+}
+.biography-article__school{
+    color:blueviolet;
+    background-color:bisque;
+}
+.biography-article__after-school{
+    color: black;
+    background-color: darkcyan;
+}
+.biography-article__university{
+    color: darkblue;
+    background-color: coral;
+}
+article>a{
+    font-weight:bold;
+}
+body>a{
+    text-transform: uppercase;
+}
+
