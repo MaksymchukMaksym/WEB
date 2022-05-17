@@ -32,9 +32,6 @@ article{
     border: 1px solid black;
 }
 
-.biography__articles-item {
-    margin-bottom: 10px;
-}
 article>h2{
     font-size: 1.5em;
     overflow: hidden;
